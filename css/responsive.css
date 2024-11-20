@@ -1,0 +1,417 @@
+/* 2xl */
+@media (max-width: 1536px) {
+    .news__img{
+        width: 100%;
+        border-radius: 8px;
+    }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    .news__img{
+        width: 100%;
+        border-radius: 8px;
+    }
+   
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    .header__container {
+        padding: 200px 0px;
+    }
+
+    .header__title {
+        font-size: 70px;
+    }
+
+    .menu__link {
+        font-size: 18px;
+        padding: 12px 18px;
+    }
+
+    .intro__title {
+        font-size: 45px;
+    }
+
+    .intro__text {
+        font-size: 20px;
+    }
+
+    .intro__banner {
+        padding: 60px 0px;
+    }
+
+    .intro__button {
+        padding: 12px 25px;
+        font-size: 16px;
+        margin: 10px 60px;
+    }
+
+    .section__content {
+        padding: 80px 20px;
+    }
+
+    .section__title {
+        font-size: 50px;
+    }
+
+    .section__text {
+        font-size: 18px;
+    }
+
+    .about__grid {
+        gap: 15px;
+    }
+
+    .about__item {
+        font-size: 18px;
+    }
+    
+    .gallery__grid {
+        align-items: center;
+        justify-content: center;
+        padding: 40px 60px;
+        gap: 20px;
+    }
+   
+    .services__list {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .service__title {
+        font-size: 28px;
+    }
+
+    .service__description {
+        font-size: 18px;
+    }
+
+    .news__img{
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .news__item {
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+
+    .news__title {
+        font-size: 20px;
+    }
+
+ 
+    .form__group {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .form__input {
+        padding: 12px 15px;
+    }
+
+    .footer__content {
+        gap: 15px;
+    }
+   
+}
+
+/* md */
+@media (max-width: 768px) {
+   
+    .header__container {
+        padding: 150px 0px;
+    }
+
+    .header__title {
+        font-size: 50px;
+        padding: 0px 14px;
+    }
+
+    .menu__link {
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+
+    .intro__title {
+        font-size: 35px;
+    }
+
+    .intro__text {
+        font-size: 18px;
+    }
+
+    .intro__banner {
+        padding: 50px 0px;
+    }
+
+    .intro__button {
+        padding: 12px 20px;
+        font-size: 16px;
+        margin: 10px 80px;
+    }
+
+    .section__content {
+        padding: 60px 20px;
+    }
+
+    .section__title {
+        font-size: 45px;
+    }
+
+    .section__text {
+        font-size: 18px;
+    }
+
+
+    .gallery__grid {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .gallery__item {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+
+    .services__list {
+        flex-direction: column;
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .service__title {
+        font-size: 25px;
+    }
+
+    .service__description {
+        font-size: 18px;
+    }
+
+    .news__grid {
+        align-items: center;
+        gap: 20px;
+    }
+
+    .news__item {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .news__img{
+        border-radius: 8px;
+    }
+
+    .form__group {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .form__input {
+        padding: 10px;
+    }
+
+    .footer__content {
+        gap: 10px;
+    }
+
+    
+    
+}
+
+/* sm */
+@media (max-width: 640px) {
+
+    .header__container {
+        padding: 100px 20px;
+    }
+
+    .header__title {
+        font-size: 40px;
+    }
+
+    .header__subtitle {
+        font-size: 14px;
+    }
+
+    .header__menu {
+        gap: 10px;
+        flex-wrap: nowrap;
+    }
+
+    .menu__link {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+
+    .intro__title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .intro__text {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .intro__button {
+        padding: 8px 16px;
+        margin: 10px 100px;
+    }
+
+    .gallery__grid {
+        gap: 10px;
+    }
+
+    .gallery__item {
+        width: 100%;
+        max-width: 280px;
+        margin: 10px auto;
+    }
+    .gallery__caption{
+        font-size: 28px;
+    }
+
+    .news__grid {
+        gap: 10px;
+    }
+
+    .news__item {
+        width: 100%;
+        max-width: 280px;
+    }
+    .news__img{
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .services__list {
+        padding: 10px 15px;
+    }
+
+    .service__title {
+        font-size: 24px;
+    }
+
+    .service__description {
+        font-size: 16px;
+    }
+
+    .form__group {
+        max-width: 280px;
+    }
+
+    .form__input {
+        padding: 8px;
+    }
+
+    .form__button {
+        font-size: 16px;
+    }
+
+    .footer__content {
+        flex-wrap: wrap;
+        gap: 5px;
+        text-align: center;
+    }
+}
+
+/* xs */
+@media (max-width: 475px) {
+
+    .header__container {
+        padding: 80px 10px;
+    }
+
+    .header__title {
+        font-size: 30px;
+    }
+
+    .header__subtitle {
+        font-size: 12px;
+    }
+
+    .header__menu {
+        gap: 5 px;
+    }
+
+    .menu__link {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    .intro__title {
+        font-size: 24px;
+    }
+
+    .intro__text {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .intro__button {
+        padding: 6px 12px;
+        margin: 5px 120px;
+    }
+
+    .gallery__item {
+        width: 100%;
+        max-width: 250px;
+    }
+    .gallery__img{
+        width: 80%;
+    }
+    .gallery__caption{
+        font-size: 28px;
+    }
+    .news__item {
+        max-width: 250px;
+    }
+
+    .news__img{
+        width: 100%;
+        border-radius: 8px;
+    }
+    .news__title{
+        font-size: 16px;
+    }
+
+    .news__summary{
+        font-size: 12px;
+    }
+
+    .services__list {
+        padding: 5px 10px;
+    }
+
+    .service__title {
+        font-size: 20px;
+    }
+
+    .service__description {
+        font-size: 14px;
+    }
+
+    .form__group {
+        max-width: 250px;
+    }
+
+    .form__input {
+        padding: 6px;
+    }
+
+    .form__button {
+        font-size: 14px;
+    }
+
+    .footer__content {
+        gap: 8px;
+        font-size: 12px;
+    }
+}
